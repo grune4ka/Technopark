@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ru.mail.go.calendar.tests.CalendarTest" duration-ms="89961" started-at="2013-10-25T17:55:26Z" finished-at="2013-10-25T17:56:56Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="89961" started-at="2013-10-25T17:55:26Z" finished-at="2013-10-25T17:56:56Z">
+      <class name="ru.mail.go.calendar.tests.CalendarTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ru.mail.go.calendar.tests.CalendarTest@4a1b4407]" name="setUp" is-config="true" duration-ms="14226" started-at="2013-10-25T21:55:26Z" finished-at="2013-10-25T21:55:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="CalendarTestCollapse()[pri:0, instance:ru.mail.go.calendar.tests.CalendarTest@4a1b4407]" name="CalendarTestCollapse" duration-ms="1584" started-at="2013-10-25T21:55:40Z" finished-at="2013-10-25T21:55:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CalendarTestCollapse -->
+        <test-method status="PASS" signature="Down()[pri:0, instance:ru.mail.go.calendar.tests.CalendarTest@4a1b4407]" name="Down" is-config="true" duration-ms="23" started-at="2013-10-25T21:55:42Z" finished-at="2013-10-25T21:55:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Down -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ru.mail.go.calendar.tests.CalendarTest@4a1b4407]" name="setUp" is-config="true" duration-ms="10028" started-at="2013-10-25T21:55:42Z" finished-at="2013-10-25T21:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="CalendarTestCurrentDay()[pri:0, instance:ru.mail.go.calendar.tests.CalendarTest@4a1b4407]" name="CalendarTestCurrentDay" duration-ms="155" started-at="2013-10-25T21:55:52Z" finished-at="2013-10-25T21:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CalendarTestCurrentDay -->
+        <test-method status="PASS" signature="Down()[pri:0, instance:ru.mail.go.calendar.tests.CalendarTest@4a1b4407]" name="Down" is-config="true" duration-ms="23" started-at="2013-10-25T21:55:52Z" finished-at="2013-10-25T21:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Down -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ru.mail.go.calendar.tests.CalendarTest@4a1b4407]" name="setUp" is-config="true" duration-ms="9783" started-at="2013-10-25T21:55:52Z" finished-at="2013-10-25T21:56:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="CalendarTestCurrentYear()[pri:0, instance:ru.mail.go.calendar.tests.CalendarTest@4a1b4407]" name="CalendarTestCurrentYear" duration-ms="196" started-at="2013-10-25T21:56:02Z" finished-at="2013-10-25T21:56:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CalendarTestCurrentYear -->
+        <test-method status="PASS" signature="Down()[pri:0, instance:ru.mail.go.calendar.tests.CalendarTest@4a1b4407]" name="Down" is-config="true" duration-ms="26" started-at="2013-10-25T21:56:02Z" finished-at="2013-10-25T21:56:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Down -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ru.mail.go.calendar.tests.CalendarTest@4a1b4407]" name="setUp" is-config="true" duration-ms="9863" started-at="2013-10-25T21:56:02Z" finished-at="2013-10-25T21:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="CalendarTestExpand()[pri:0, instance:ru.mail.go.calendar.tests.CalendarTest@4a1b4407]" name="CalendarTestExpand" duration-ms="749" started-at="2013-10-25T21:56:12Z" finished-at="2013-10-25T21:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CalendarTestExpand -->
+        <test-method status="PASS" signature="Down()[pri:0, instance:ru.mail.go.calendar.tests.CalendarTest@4a1b4407]" name="Down" is-config="true" duration-ms="26" started-at="2013-10-25T21:56:13Z" finished-at="2013-10-25T21:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Down -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ru.mail.go.calendar.tests.CalendarTest@4a1b4407]" name="setUp" is-config="true" duration-ms="10347" started-at="2013-10-25T21:56:13Z" finished-at="2013-10-25T21:56:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="CalendarTestHolyday()[pri:0, instance:ru.mail.go.calendar.tests.CalendarTest@4a1b4407]" name="CalendarTestHolyday" duration-ms="163" started-at="2013-10-25T21:56:23Z" finished-at="2013-10-25T21:56:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CalendarTestHolyday -->
+        <test-method status="PASS" signature="Down()[pri:0, instance:ru.mail.go.calendar.tests.CalendarTest@4a1b4407]" name="Down" is-config="true" duration-ms="37" started-at="2013-10-25T21:56:23Z" finished-at="2013-10-25T21:56:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Down -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ru.mail.go.calendar.tests.CalendarTest@4a1b4407]" name="setUp" is-config="true" duration-ms="10540" started-at="2013-10-25T21:56:23Z" finished-at="2013-10-25T21:56:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="CalendarTestOtherYear()[pri:0, instance:ru.mail.go.calendar.tests.CalendarTest@4a1b4407]" name="CalendarTestOtherYear" duration-ms="551" started-at="2013-10-25T21:56:34Z" finished-at="2013-10-25T21:56:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CalendarTestOtherYear -->
+        <test-method status="PASS" signature="Down()[pri:0, instance:ru.mail.go.calendar.tests.CalendarTest@4a1b4407]" name="Down" is-config="true" duration-ms="22" started-at="2013-10-25T21:56:34Z" finished-at="2013-10-25T21:56:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Down -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ru.mail.go.calendar.tests.CalendarTest@4a1b4407]" name="setUp" is-config="true" duration-ms="10293" started-at="2013-10-25T21:56:34Z" finished-at="2013-10-25T21:56:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="CalendarTestShortday()[pri:0, instance:ru.mail.go.calendar.tests.CalendarTest@4a1b4407]" name="CalendarTestShortday" duration-ms="148" started-at="2013-10-25T21:56:45Z" finished-at="2013-10-25T21:56:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CalendarTestShortday -->
+        <test-method status="PASS" signature="Down()[pri:0, instance:ru.mail.go.calendar.tests.CalendarTest@4a1b4407]" name="Down" is-config="true" duration-ms="24" started-at="2013-10-25T21:56:45Z" finished-at="2013-10-25T21:56:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Down -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ru.mail.go.calendar.tests.CalendarTest@4a1b4407]" name="setUp" is-config="true" duration-ms="10802" started-at="2013-10-25T21:56:45Z" finished-at="2013-10-25T21:56:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="CalendarTestTitle()[pri:0, instance:ru.mail.go.calendar.tests.CalendarTest@4a1b4407]" name="CalendarTestTitle" duration-ms="227" started-at="2013-10-25T21:56:56Z" finished-at="2013-10-25T21:56:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CalendarTestTitle -->
+        <test-method status="PASS" signature="Down()[pri:0, instance:ru.mail.go.calendar.tests.CalendarTest@4a1b4407]" name="Down" is-config="true" duration-ms="33" started-at="2013-10-25T21:56:56Z" finished-at="2013-10-25T21:56:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Down -->
+      </class> <!-- ru.mail.go.calendar.tests.CalendarTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- ru.mail.go.calendar.tests.CalendarTest -->
+</testng-results>

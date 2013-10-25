@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [ru.mail.go.calendar.tests.CalendarTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="ru.mail.go.calendar.tests.CalendarTest">
+        <methods>
+          <include name="Down"/>
+          <include name="CalendarTestShortday"/>
+          <include name="CalendarTestHolyday"/>
+          <include name="CalendarTestCurrentDay"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- ru.mail.go.calendar.tests.CalendarTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [ru.mail.go.calendar.tests.CalendarTest] -->
