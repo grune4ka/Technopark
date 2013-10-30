@@ -17,6 +17,8 @@ public class ResultPage{
     private static final String title = "calendar__title";
     private static final String calendarBlock = "calBlock";
 
+    private static final String requiredAttribute = "class";
+
     public ResultPage(WebDriver driver) {
         this.driver = driver;
     }
@@ -40,7 +42,7 @@ public class ResultPage{
     }
 
     public String getCalendarCollapseFlag(){
-        return driver.findElement(By.id(calendarBlock)).getAttribute("class");
+        return driver.findElement(By.id(calendarBlock)).getAttribute(requiredAttribute);
     }
 
     public String getOtherYear(){
