@@ -11,13 +11,10 @@ public class ResultPage{
 
     private static final String currentYear = "calendar__year-current";
     private static final String backgroundColor = "background-color";
-    private static final String expand = "calExpand";
-    private static final String collapse = "calCollapse";
+    private static final String expandButton = "calExpand";
+    private static final String collapseButton = "calCollapse";
     private static final String otherYear ="calendar__year_other";
     private static final String title = "calendar__title";
-    private static final String calendarBlock = "calBlock";
-
-    private static final String requiredAttribute = "class";
 
     public ResultPage(WebDriver driver) {
         this.driver = driver;
@@ -34,15 +31,16 @@ public class ResultPage{
         return element.getCssValue(backgroundColor);
     }
     public void clickOnCalendarButtonExpand(){
-        driver.findElement(By.id(expand)).click();
+        driver.findElement(By.id(expandButton)).click();
     }
 
     public void clickOnCalendarButtonCollapse(){
-        driver.findElement(By.id(collapse)).click();
+        driver.findElement(By.id(collapseButton)).click();
     }
 
-    public String getCalendarCollapseFlag(){
-        return driver.findElement(By.id(calendarBlock)).getAttribute(requiredAttribute);
+    public boolean getCalendarExpandButtonCondition(String statusChangeButton){
+        return driver.findElement(By.cssSelector(statusChangeButton)).isDisplayed();
+
     }
 
     public String getOtherYear(){
@@ -53,6 +51,7 @@ public class ResultPage{
     public String getTitle() {
         return driver.findElement(By.className(title)).getText();
     }
+
 
 
 }

@@ -29,8 +29,8 @@ public class CalendarTest {
         this.driver.manage().window().maximize();
         this.driver.get(url);
     }
-/*//    @Parameters({"browser", "url"})
-    public void setUp() throws MalformedURLException {
+
+/*    public void setUp() throws MalformedURLException {
         this.driver = new FirefoxDriver();
         this.driver.get("http://go.mail.ru/search?q=%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8C&fr=main");
     }*/
@@ -52,7 +52,6 @@ public class CalendarTest {
         Assert.assertEquals(currentDayColor, "rgba(184, 234, 154, 1)");
     }
 
-
     @Test
     public void CalendarTestHolyday(){
         String holydayColor = new ResultPage(this.driver).backgroundColor(".calendar__holyday .calendar__day-content");
@@ -65,12 +64,11 @@ public class CalendarTest {
         Assert.assertEquals(currentDayColor, "rgba(255, 229, 197, 1)");
     }
 
-
     @Test
     public void CalendarTestExpand(){
         ResultPage page = new ResultPage(this.driver);
         page.clickOnCalendarButtonExpand();
-        Assert.assertEquals(page.getCalendarCollapseFlag(),"calendar__block calendar__block_inline calendar__block_opened");
+        Assert.assertEquals(page.getCalendarExpandButtonCondition(".calendar__expand"), false);
     }
 
     @Test
@@ -78,7 +76,7 @@ public class CalendarTest {
         ResultPage page = new ResultPage(this.driver);
         page.clickOnCalendarButtonExpand();
         page.clickOnCalendarButtonCollapse();
-        Assert.assertEquals(page.getCalendarCollapseFlag(),"calendar__block calendar__block_inline");
+        Assert.assertEquals(page.getCalendarExpandButtonCondition(".calendar__collapse"),false);
     }
 
     @Test
